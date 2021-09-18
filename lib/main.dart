@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'features/WorkflowPicker/presentation/pages/workflow_picker.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -11,10 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Swvl Point Finder',
-        theme: ThemeData(
-          primaryColor: Color.fromRGBO(251, 21, 59, 1),
-        ),
-        home: new Container());
+      title: 'Swvl Point Finder',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primaryColor: const Color.fromRGBO(251, 21, 59, 1),
+      ),
+      home: const WorkflowPicker(),
+    );
   }
 }
