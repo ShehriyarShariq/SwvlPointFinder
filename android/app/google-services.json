@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "822207257778",
+    "project_id": "swvlpointfinder",
+    "storage_bucket": "swvlpointfinder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822207257778:android:3a9a9660d5ff381f5b7dab",
+        "android_client_info": {
+          "package_name": "com.example.swvl_new_workflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822207257778-cbs22ttmpfdgd9847r9aldjr5noid602.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwW5w6Zq2lKrekOt7JA2fOe0Lpc1-dhhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822207257778-cbs22ttmpfdgd9847r9aldjr5noid602.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
